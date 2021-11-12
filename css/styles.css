@@ -25,6 +25,7 @@ body {
 }
 a {
   text-decoration: none;
+  display: inline-block;
   color: var(--clr-blue);
 }
 section {
@@ -370,4 +371,28 @@ img {
   .project {
     gap: 80px;
   }
+}
+
+/* CONTACT SECTION */
+.contact {
+  text-align: center;
+  height: auto;
+}
+.contact .container {
+
+}
+.contact__content {
+
+}
+.contact__content .socials {
+  justify-content: center;
+}
+.contact__heading {
+  font-size: 2rem;
+  color: var(--clr-white);
+}
+.contact__mail {
+  font-size: 1.75rem;
+  color: var(--clr-white);
+  margin-bottom: 50px;
 }
