@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+  --clr-white: #fff;
+  --clr-white-trans: rgba(255,255,255,.6);
+  --clr-black-trans: rgba(255,255,255,.08);
+  --clr-black: #121212;
+  --clr-gray: #8c8c8c;
+  --clr-blue: #2f89fc;
+  
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--clr-gray);
+  line-height: 1.8;
+  font-weight: 400;
+  background-color: var(--clr-black);
+}
+
+section {
+  height: 80vh;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 30px 0;
+}
+
+/* HEADER */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.25rem;
+  color: var(--clr-white);
+  letter-spacing: 5px;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger .bar {
+  height: 2px;
+  width: 40px;
+  background-color: var(--clr-white);
+  display: inline-block;
+}
+.bar + .bar {
+  margin-top: 5px;
+}
+.hamburger:hover {
+  transform: scale(1.1);
+}
+/* -------------HERO  ---------------*/
+.hero {
+  margin-top: -10vh;
+}
+.hero .container{
+  height: 100%;
+}
+.hero__content {
+  height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__content h1 {
+  font-size: 2.5rem;
+  color: var(--clr-white);
+  line-height: 1.2;
+  letter-spacing: 10px;
+}
+.hero__content span {
+  font-size: 1.25rem;
+  color: var(--clr-white-trans);
+  line-height: 1.5;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
