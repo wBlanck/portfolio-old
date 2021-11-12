@@ -29,7 +29,7 @@ a {
   color: var(--clr-blue);
 }
 section {
-  height: 100vh;
+  padding: 100px 0;
 }
 ul {
   padding: 0;
@@ -103,6 +103,7 @@ img {
 }
 /* -------------HERO  ---------------*/
 .hero {
+  height: 100vh;
   margin-top: -10vh;
 }
 .hero .container{
@@ -295,7 +296,7 @@ img {
 
 /* PROJECTS */
 .projects {
-
+  padding-bottom: 0;
 }
 .projects .container {
 
@@ -314,7 +315,6 @@ img {
 }
 .project a {
   position: relative;
-  display: inline-block;
 }
 .project a:hover .overlay {
   display: flex;
@@ -381,7 +381,7 @@ img {
 /* CONTACT SECTION */
 .contact {
   text-align: center;
-  
+  padding-top: 0;
 }
 .contact .container {
 
